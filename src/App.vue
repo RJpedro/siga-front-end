@@ -3,23 +3,23 @@ import LoginArea from "@/sections/login-area.vue";
 import SidebarComponent from "@/components/sidebar-component.vue";
 // import DashboardArea from "@/sections/dashboard-area.vue";
 import GradeArea from "@/sections/grade-area.vue";
+import CurricularGradeComponent from "@/components/curricular-grade-component.vue";
+import TeachingPlansArea from "@/sections/teaching-plans-area.vue";
 </script>
 
 <template>
-  <SidebarComponent />
-  <!-- <LoginArea /> -->
-  <!-- <DashboardArea /> -->
-  <GradeArea />
+  <TeachingPlansArea />
 </template>
 
 <script lang="ts">
 export default {
   name: 'App',
   components: {
-    LoginArea,
-    SidebarComponent,
+    // LoginArea,
+    // SidebarComponent,
     // DashboardArea,
-    GradeArea,
+    // GradeArea,
+    // CurricularGradeComponent
   }
 }
 </script>
